@@ -1,37 +1,48 @@
 <template>
   <div id="app" class="container-fluid">
-   <the-header/>
+    <!-- <ColourAndContentChange/> -->
+   <!-- <the-header/>
     <the-left-view/>
- 
-    <the-right-view/>
- 
-  <!-- <div class="">This div takes up 1/3 of the available width on a desktop</div>
-  <div class="">This div takes up 2/3 of the available width on a desktop</div> -->
+  <the-middle-view/>
+    <the-right-view/>  -->
+  <!-- <DynamicBackgroundColorChange/> -->
+<!-- <DynamicPostLetter/> -->
+  
+  <!-- <SteepsChange/>-->
+  <!-- <DoorOpenClose/> -->
+  <FinalDoor/>
+  <SteepsFinal/>
    </div>
 </template>
 
 <script>
-import TheHeader from './components/TheHeader.vue'
-import TheLeftView from './components/TheLeftView.vue'
-import TheRightView from './components/TheRightView.vue'
-
+// import TheHeader from './components/TheHeader.vue'
+// import TheLeftView from './components/TheLeftView.vue'
+// import TheRightView from './components/TheRightView.vue'
+//import TheMiddleView from "./components/TheMiddleView.vue";
+// import DynamicBackgroundColorChange from "./components/UI/DynamicBackgroundColorChange";
+// import DynamicPostLetter from "./components/UI/DynamicPostLetter";
+// import ColourAndContentChange from "./components/UI/ColourAndContentChange";
+// import SteepsChange from "./components/UI/SteepsChange";
+// import DoorOpenClose from "./components/UI/DoorOpenClose";
+import FinalDoor from "./components/UI/FinalDoor";
 export default {
   name: 'App',
   components: {
-    TheHeader,
-    TheLeftView,
-    TheRightView
+  //   TheHeader,
+  //  TheLeftView,
+  //   TheRightView,
+    // TheMiddleView
+    // DynamicBackgroundColorChange,
+    // DynamicPostLetter,
+    // ColourAndContentChange,
+    // SteepsChange,
+    // DoorOpenClose
+    FinalDoor
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

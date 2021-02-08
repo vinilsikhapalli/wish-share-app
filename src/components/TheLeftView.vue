@@ -1,55 +1,70 @@
 <template>
-    <div class="leftComoponent col-md-6 col-sm-6">
-        <div class="heart-shape text-center col-6 ">
-          <!-- <h2>hello world from here</h2> -->
-        </div>
+    <div class="leftComoponent col-md-6 r1 card col-sm-6">
+
+  <div class="card-body r1">
+         <h1 style="width: 80rem;"> wish you a many more happy returns of the day
+           wish you a many more happy returns of the day
+           wish you a many more happy returns of the day
+           wish you a many more happy returns of the day
+           wish you a many more happy returns of the day
+           wish you a many more happy returns of the day
+           wish you a many more happy returns of the day
+         </h1>
+          </div>
+          <!-- <div class="r2">on the way</div> -->
+          <!-- <div class="circle">
+            I am the one
+          </div>
+          <div class="element">
+            here I am
+          </div> -->
+
     </div>
 </template>
 <script>
+
 export default {
      name: 'TheLeftView',
 }
 </script>
-<style scoped>
+<style >
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
 .leftComoponent {
   padding: 50px 10px 50px 20px;
-  border: 2px solid #f76707;
+  /* border: 2px solid #f76707; */
   /* border-radius: 5px; */
-  background-color: #c2c5eb;
+  /* background-color: #c2c5eb; */
   /* display: grid; */
   /* grid-template-columns: 1fr 2fr; */
   /* grid-template-rows: repeat(3, 100px); */
 }
-.heart-shape{
-  position: relative;
-  width: 145px;
-  height: 145px;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  background-color: rgb(250, 66, 152);
+.element {  
+  float: left;
+  shape-outside: circle(30%);
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
 }
-.heart-shape:before,
-.heart-shape:after{
-  position: absolute;
-  width: 145px;
-  height: 145px;
-  content: '';
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
+/* .circle{
+   width: 500px;
+  height: 500px;
+  line-height: 500px;
   border-radius: 50%;
-  background-color: rgb(250, 66, 152);
+  font-size: 50px;
+  color: rgb(48, 192, 125);
+  text-align: center;
+  background: rgb(189, 34, 34)
+} */
+.r1{
+  /* transform: rotate(-13deg); */
+  position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 15px;
 }
-.heart-shape:before{
-  bottom: 0px;
-  left: -50px;
-}
-.heart-shape:after{
-  top: -50px;
-  right: 0px;
+.r2{
+  transform: rotate(-30deg);
 }
 </style>
 // out line colur 

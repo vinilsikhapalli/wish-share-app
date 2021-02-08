@@ -1,0 +1,33 @@
+<template>
+ <div class="leftComoponent col-md-5 col-sm-5">
+    
+          <svg viewBox="0 0 425 300">
+  <path id="curve" d="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145" />
+  <text x="25">
+    <textPath xlink:href="#curve">
+      wish you a many more happy returns of the day.... I miss you
+       wish you a many more happy returns of the day.... I miss you
+        wish you a many more happy returns of the day.... I miss you
+         wish you a many more happy returns of the day.... I miss you
+          wish you a many more happy returns of the day.... I miss you
+    </textPath>
+  </text>
+</svg>
+     
+ </div>
+</template>
+<style scoped>
+body {
+  background-color: #333;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}
+</style>

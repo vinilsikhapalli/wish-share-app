@@ -1,5 +1,5 @@
 <template>
-  <div class="rightComoponent col-md- col-sm-6">
+  <div class="rightComoponent col-md-6 col-sm-6">
     <div class="" style="cursor: pointer">
       <img
         src="https://images-na.ssl-images-amazon.com/images/I/81cSHDyccxL._SL1500_.jpg"
