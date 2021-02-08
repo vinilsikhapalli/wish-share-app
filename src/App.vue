@@ -1,17 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <div id="app" class="container-fluid">
+   <the-header/>
+    <the-left-view/>
+ 
+    <the-right-view/>
+ 
+  <!-- <div class="">This div takes up 1/3 of the available width on a desktop</div>
+  <div class="">This div takes up 2/3 of the available width on a desktop</div> -->
+   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheHeader from './components/TheHeader.vue'
+import TheLeftView from './components/TheLeftView.vue'
+import TheRightView from './components/TheRightView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TheHeader,
+    TheLeftView,
+    TheRightView
   }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-        <h1>from Header developed by vinil </h1>
+        <h1>from Header</h1>
   </div>
 </template>
 
