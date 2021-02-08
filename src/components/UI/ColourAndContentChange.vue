@@ -34,6 +34,7 @@ body {
 
 .dropping-texts > div {
   font-size:0px;
+
   opacity:0;
   margin-left:-30px;
   position:absolute;
